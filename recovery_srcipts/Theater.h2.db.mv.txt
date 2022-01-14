@@ -1,0 +1,108 @@
+File C:/STUDYING/V/THEATER_PROJECT/DB/Theater.h2.db.mv.db, 24576 bytes, 0 MB
+0000 fileHeader H:2,block:5,blockSize:1000,chunk:1b,clean:1,created:17c8ecb180f,format:1,version:1b,fletcher:c11d82f4
+1000 fileHeader H:2,block:5,blockSize:1000,chunk:1b,clean:1,created:17c8ecb180f,format:1,version:1b,fletcher:c11d82f4
+
+2000 chunkHeader chunk:17,block:2,len:1,map:d,max:3c0,next:3,pages:2,root:5c000005c92,time:b637,version:17,pinCount:0
++00b9 leaf, map 3, 2 entries, 185 bytes, maxLen c0
++0172 leaf, map 0, 15 entries, 595 bytes, maxLen 300
+    chunk.15 = chunk:15,block:4,len:1,liveMax:0,livePages:0,map:c,max:3c0,next:6,pages:2,root:54000005c92,time:b5d7,unused:b637,unusedAtVersion:16,version:15,pinCount:0
+    chunk.16 = chunk:16,block:6,len:1,liveMax:0,livePages:0,map:d,max:400,next:7,pages:1,root:58000002e54,time:b61d,unused:b637,unusedAtVersion:16,version:16,pinCount:0
+    map.1 = name:openTransactions
+    map.3 = name:table.0
+    map.4 = name:lobMap
+    map.5 = name:lobRef
+    map.6 = name:lobData
+    map.d = name:undoLog.1,createVersion:15
+    name.lobData = 6
+    name.lobMap = 4
+    name.lobRef = 5
+    name.openTransactions = 1
+    name.table.0 = 3
+    name.undoLog.1 = d
+    root.3 = 5c000002e4a
+map 0: 595 bytes, 76%
+map 3: 185 bytes, 23%
++0f80 chunkFooter chunk:17,block:2,version:17,fletcher:963d91a9
+
+3000 chunkHeader chunk:19,block:3,len:1,map:d,max:300,next:4,pages:1,root:64000002e52,time:b6e0,version:19,pinCount:0
++00b9 leaf, map 0, 15 entries, 577 bytes, maxLen 300
+    chunk.17 = chunk:17,block:2,len:1,liveMax:c0,livePages:1,map:d,max:3c0,next:3,pages:2,root:5c000005c92,time:b637,unusedAtVersion:17,version:17,pinCount:0
+    chunk.18 = chunk:18,block:5,len:1,liveMax:0,livePages:0,map:d,max:300,pages:1,root:60000002e52,time:b6a1,unused:b6e0,unusedAtVersion:18,version:18,pinCount:0
+    map.1 = name:openTransactions
+    map.3 = name:table.0
+    map.4 = name:lobMap
+    map.5 = name:lobRef
+    map.6 = name:lobData
+    map.d = name:undoLog.1,createVersion:15
+    name.lobData = 6
+    name.lobMap = 4
+    name.lobRef = 5
+    name.openTransactions = 1
+    name.table.0 = 3
+    name.undoLog.1 = d
+    root.3 = 5c000002e4a
+map 0: 577 bytes, 100%
++0f80 chunkFooter chunk:19,block:3,version:19,fletcher:985a93ac
+
+4000 chunkHeader chunk:1a,block:4,len:1,map:e,max:300,next:6,pages:1,root:68000002e52,time:b744,version:1a,pinCount:0
++00b9 leaf, map 0, 16 entries, 741 bytes, maxLen 300
+    chunk.17 = chunk:17,block:2,len:1,liveMax:c0,livePages:1,map:d,max:3c0,next:3,pages:2,root:5c000005c92,time:b637,unusedAtVersion:17,version:17,pinCount:0
+    chunk.18 = chunk:18,block:5,len:1,liveMax:0,livePages:0,map:d,max:300,pages:1,root:60000002e52,time:b6a1,unused:b6e0,unusedAtVersion:18,version:18,pinCount:0
+    chunk.19 = chunk:19,block:3,len:1,liveMax:0,livePages:0,map:d,max:300,next:4,pages:1,root:64000002e52,time:b6e0,unused:b744,unusedAtVersion:19,version:19,pinCount:0
+    map.1 = name:openTransactions
+    map.3 = name:table.0
+    map.4 = name:lobMap
+    map.5 = name:lobRef
+    map.6 = name:lobData
+    map.e = name:undoLog.1,createVersion:19
+    name.lobData = 6
+    name.lobMap = 4
+    name.lobRef = 5
+    name.openTransactions = 1
+    name.table.0 = 3
+    name.undoLog.1 = e
+    root.3 = 5c000002e4a
+map 0: 741 bytes, 100%
++0f80 chunkFooter chunk:1a,block:4,version:1a,fletcher:c219bbd5
+
+5000 chunkHeader chunk:1b,block:5,len:1,map:e,max:3c0,next:6,pages:2,root:6c000005c92,time:b765,version:1b,pinCount:0
++00b9 leaf, map 3, 2 entries, 185 bytes, maxLen c0
++0172 leaf, map 0, 16 entries, 759 bytes, maxLen 300
+    chunk.17 = chunk:17,block:2,len:1,liveMax:0,livePages:0,map:d,max:3c0,next:3,pages:2,root:5c000005c92,time:b637,unused:b765,unusedAtVersion:1a,version:17,pinCount:0
+    chunk.19 = chunk:19,block:3,len:1,liveMax:0,livePages:0,map:d,max:300,next:4,pages:1,root:64000002e52,time:b6e0,unused:b744,unusedAtVersion:19,version:19,pinCount:0
+    chunk.1a = chunk:1a,block:4,len:1,liveMax:0,livePages:0,map:e,max:300,next:6,pages:1,root:68000002e52,time:b744,unused:b765,unusedAtVersion:1a,version:1a,pinCount:0
+    map.1 = name:openTransactions
+    map.3 = name:table.0
+    map.4 = name:lobMap
+    map.5 = name:lobRef
+    map.6 = name:lobData
+    map.e = name:undoLog.1,createVersion:19
+    name.lobData = 6
+    name.lobMap = 4
+    name.lobRef = 5
+    name.openTransactions = 1
+    name.table.0 = 3
+    name.undoLog.1 = e
+    root.3 = 6c000002e4a
+map 0: 759 bytes, 80%
+map 3: 185 bytes, 19%
++0f80 chunkFooter chunk:1b,block:5,version:1b,fletcher:c32bbcd7
+
+6000 eof
+
+page size total: 3042 bytes, page count: 6, average page size: 507 bytes
+map 0: 2672 bytes, 87%
+map 3: 370 bytes, 12%
+Created: 2021-10-17 18:07:27 (+0 s)
+Last modified: 2021-10-17 18:08:14 (+46 s)
+File length: 24576
+The last chunk is not listed
+Chunk length: 12288
+Chunk count: 3
+Used space: 50%
+Chunk fill rate: 0%
+Chunk fill rate excluding empty chunks: 100%
+  Chunk 23: 2021-10-17 18:08:13 (+46 s), 0% used, 1 blocks, unused: 2021-10-17 18:08:14 (+46 s)
+  Chunk 25: 2021-10-17 18:08:13 (+46 s), 0% used, 1 blocks, unused: 2021-10-17 18:08:14 (+46 s)
+  Chunk 26: 2021-10-17 18:08:14 (+46 s), 0% used, 1 blocks, unused: 2021-10-17 18:08:14 (+46 s)
+

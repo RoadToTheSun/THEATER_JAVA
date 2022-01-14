@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>8fa25882-fb02-48b6-a3b1-8bbc740046bb</OriginalElement>
+  <nodes>
+    <node x="273.0" y="758.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.ticket_price</node>
+    <node x="279.5" y="563.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.ticket</node>
+    <node x="296.0" y="0.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.collective</node>
+    <node x="50.5" y="368.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.session</node>
+    <node x="295.5197779319917" y="379.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle_participant</node>
+    <node x="648.6285565579459" y="617.8056904927134">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.customer</node>
+    <node x="310.5" y="173.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.employee</node>
+    <node x="139.125" y="151.0">8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.employee" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.collective" relationship="REFERENCES">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.session" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle" relationship="REFERENCES">
+      <point x="0.0" y="-72.5" />
+      <point x="151.0" y="343.0" />
+      <point x="208.625" y="343.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.ticket_price" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.ticket" relationship="REFERENCES">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle_participant" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.employee" relationship="REFERENCES">
+      <point x="50.25" y="-50.5" />
+      <point x="446.2697779319917" y="343.0" />
+      <point x="377.0" y="343.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.ticket" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.customer" relationship="REFERENCES">
+      <point x="73.29241845940322" y="-53.84758848022204" />
+      <point x="509.65900416377514" y="581.652411519778" />
+      <point x="509.65900416377514" y="580.4349410131853" />
+      <point x="716.1285565579459" y="580.4349410131853" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle_participant" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle" relationship="REFERENCES">
+      <point x="-50.25" y="-50.5" />
+      <point x="345.7697779319917" y="343.0" />
+      <point x="208.625" y="343.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.ticket" target="8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.session" relationship="REFERENCES">
+      <point x="-38.0" y="-72.5" />
+      <point x="317.5" y="538.0" />
+      <point x="151.0" y="538.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.2489707475622969" showDependencies="false" x="349.9274809160304" y="370.6786953504509" />
+  <SelectedNodes>
+    <node>8fa25882-fb02-48b6-a3b1-8bbc740046bb.TABLE:theater.spectacle_participant</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

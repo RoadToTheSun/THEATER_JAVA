@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/recovery_srcipts/Theater.h2.db.h2.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/recovery_srcipts/Theater.h2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/recovery_srcipts/create_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/Theater/DataBase/RepositoryItem/SessionRepository.java" dialect="GenericSQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="THEATER_PROJECT:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/THEATER_PROJECT_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="THEATER_PROJECT/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="THEATER_PROJECT" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql.connector.java" />
+          <element id="library" level="project" name="h2database.h2" />
+          <element id="library" level="project" name="jstl" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

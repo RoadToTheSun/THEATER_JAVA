@@ -1,0 +1,10 @@
+form {
+    width: 400px;
+    height: min-content;
+    margin: 25% auto;
+    display: flex;
+    flex-direction: column;
+}
+form > * {
+    padding: 5px;
+}
